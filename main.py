@@ -5,7 +5,6 @@
 ######################################################
 from machine import Pin, Timer                              # RaspberryPi Pico2040 -> Hardware-Library
 from module_init import Global_Module as MyModule
-#import module_serial
 import time
 
 
