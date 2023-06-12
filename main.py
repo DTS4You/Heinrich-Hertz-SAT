@@ -1,6 +1,6 @@
 ######################################################
 ### Main-Program                                   ###
-### Projekt: Salsat                                ###
+### Projekt: Heinrich-Hertz-SAT                    ###
 ### Version: 1.00                                  ###
 ######################################################
 from machine import Pin, Timer                              # RaspberryPi Pico2040 -> Hardware-Library
