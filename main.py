@@ -8,15 +8,54 @@ from module_init import Global_Module as MyModule
 import time
 
 
-pix_array_01 = [31,34,35,36]
-pix_array_02 = [5,6,7,8,9,29]
-pix_array_03 = [32,33]
-pix_array_04 = [21]
-pix_array_05 = [23]
-pix_array_06 = [12,13,14,15,16,18,22,23]
-pix_array_07 = [26,27]
-pix_array_08 = [10,11,28,30]
-pix_array_09 = [1]
+pix_array_01 = [[ 1, 1],
+                [ 1, 2]]
+
+pix_array_02 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_03 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_04 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_05 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_06 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_07 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_08 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_09 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_10 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_11 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_12 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_13 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_14 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_15 = [[ 1, 1],
+                [ 2, 3]]
+
+pix_array_16 = [[ 1, 1],
+                [ 2, 3]]
+
 
 def blink_func():
     MyWS2812.do_blink()
