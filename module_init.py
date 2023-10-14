@@ -149,40 +149,40 @@ class Global_WS2812:
     
     # *************************************************************************
 
-    seg_32_strip        = 2             # 32. Ledsegment -> Stripe
-    seg_32_start        = 7             # 32. Ledsegment -> Start
-    seg_32_count        = 1             # 32. Ledsegment -> Anzahl
+    #seg_32_strip        = 2             # 32. Ledsegment -> Stripe
+    #seg_32_start        = 7             # 32. Ledsegment -> Start
+    #seg_32_count        = 1             # 32. Ledsegment -> Anzahl
     
-    seg_33_strip        = 2             # 33. Ledsegment -> Stripe
-    seg_33_start        = 8             # 33. Ledsegment -> Start
-    seg_33_count        = 1             # 33. Ledsegment -> Anzahl
+    #seg_33_strip        = 2             # 33. Ledsegment -> Stripe
+    #seg_33_start        = 8             # 33. Ledsegment -> Start
+    #seg_33_count        = 1             # 33. Ledsegment -> Anzahl
     
-    seg_34_strip        = 2             # 34. Ledsegment -> Stripe
-    seg_34_start        = 9             # 34. Ledsegment -> Start
-    seg_34_count        = 1             # 34. Ledsegment -> Anzahl
+    #seg_34_strip        = 2             # 34. Ledsegment -> Stripe
+    #seg_34_start        = 9             # 34. Ledsegment -> Start
+    #seg_34_count        = 1             # 34. Ledsegment -> Anzahl
 
-    seg_35_strip        = 2             # 35. Ledsegment -> Stripe
-    seg_35_start        = 10            # 35. Ledsegment -> Start
-    seg_35_count        = 1             # 35. Ledsegment -> Anzahl
+    #seg_35_strip        = 2             # 35. Ledsegment -> Stripe
+    #seg_35_start        = 10            # 35. Ledsegment -> Start
+    #seg_35_count        = 1             # 35. Ledsegment -> Anzahl
     
-    seg_36_strip        = 2             # 36. Ledsegment -> Stripe
-    seg_36_start        = 11            # 36. Ledsegment -> Start
-    seg_36_count        = 1             # 36. Ledsegment -> Anzahl
+    #seg_36_strip        = 2             # 36. Ledsegment -> Stripe
+    #seg_36_start        = 11            # 36. Ledsegment -> Start
+    #seg_36_count        = 1             # 36. Ledsegment -> Anzahl
 
 # -----------------------------------------------------------------------------
 
-    seg_37_strip        = 3             # 37. Ledsegment -> Stripe
-    seg_37_start        = 0             # 37. Ledsegment -> Start
-    seg_37_count        = 16            # 37. Ledsegment -> Anzahl
+    #seg_37_strip        = 3             # 37. Ledsegment -> Stripe
+    #seg_37_start        = 0             # 37. Ledsegment -> Start
+    #seg_37_count        = 16            # 37. Ledsegment -> Anzahl
 
 # -----------------------------------------------------------------------------
 
-    color_def           = (  0,  0,  5)
+    color_def           = ( 10,  0,  0)
     color_off           = (  0,  0,  0)
     color_on            = (100,100,100)
     color_dot           = ( 50, 50, 50)
-    color_blink_on      = (100,100,100)
-    color_blink_off     = ( 30, 30, 30)
+    color_blink_on      = (  0,  0,200)
+    color_blink_off     = (  0,  0, 30)
 
 
 class Global_Default:

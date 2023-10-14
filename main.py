@@ -40,6 +40,8 @@ def main():
     print("=== Start Main ===")
     
     blink_couter = 0
+    
+    MyWS2812.do_all_def()	# Alle Leds auf Default-Wert
        
     while MySerial.sercon_read_flag():
 
@@ -135,10 +137,6 @@ def main():
         # Loop-Delay !!!
         time.sleep(0.01)        # 10ms
         
-        
-
-        
-
 
 
     print("=== End of Main ===")
