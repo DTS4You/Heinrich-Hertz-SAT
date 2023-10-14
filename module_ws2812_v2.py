@@ -124,6 +124,8 @@ def setup_ws2812():
     strip_obj.append(module_neopixel.Neopixel(mg.numpix_2, 1, 7, "GRB"))
     strip_obj.append(module_neopixel.Neopixel(mg.numpix_3, 2, 8, "GRB"))
     strip_obj.append(module_neopixel.Neopixel(mg.numpix_4, 3, 9, "GRB"))
+    strip_obj.append(module_neopixel.Neopixel(mg.numpix_5, 4, 2, "GBR"))
+    strip_obj.append(module_neopixel.Neopixel(mg.numpix_6, 5, 3, "GRB"))
     
     led_obj.append(Ledsegment(strip_obj[mg.seg_01_strip], mg.seg_01_start, mg.seg_01_count))      #  0, 0  (01) -> LED Position -> # 01 #--
     led_obj.append(Ledsegment(strip_obj[mg.seg_02_strip], mg.seg_02_start, mg.seg_02_count))      #  0, 1  (02) -> LED Position -> # 02 #
@@ -156,6 +158,8 @@ def setup_ws2812():
     led_obj.append(Ledsegment(strip_obj[mg.seg_29_strip], mg.seg_29_start, mg.seg_29_count))      #  3, 0  (29) -> LED Position -> # 01 #--
     led_obj.append(Ledsegment(strip_obj[mg.seg_30_strip], mg.seg_30_start, mg.seg_30_count))      #  3, 1  (30) -> LED Position -> # 02 #
     led_obj.append(Ledsegment(strip_obj[mg.seg_31_strip], mg.seg_31_start, mg.seg_31_count))      #  3, 2  (31) -> LED Position -> # 03 #--
+    led_obj.append(Ledsegment(strip_obj[mg.seg_32_strip], mg.seg_32_start, mg.seg_32_count))      #  4, 0  (32) -> LED Position -> # 01 #--
+    led_obj.append(Ledsegment(strip_obj[mg.seg_33_strip], mg.seg_33_start, mg.seg_33_count))      #  5, 0  (33) -> LED Position -> # 01 #--
 
     for strips in strip_obj:
         strips.brightness(255)
