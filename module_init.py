@@ -151,13 +151,13 @@ class Global_WS2812:
     
     # *************************************************************************
 
-    seg_32_strip        = 4             # 32. Ledsegment -> Stripe
+    seg_32_strip        = 4             # 32. Ledsegment -> Stripe		# 1. LED Startracker linke
     seg_32_start        = 0             # 32. Ledsegment -> Start
     seg_32_count        = 1             # 32. Ledsegment -> Anzahl
 
     # *************************************************************************
 
-    seg_33_strip        = 5             # 33. Ledsegment -> Stripe
+    seg_33_strip        = 5             # 33. Ledsegment -> Stripe		# 1. LED Startracker rechts
     seg_33_start        = 0             # 33. Ledsegment -> Start
     seg_33_count        = 1             # 33. Ledsegment -> Anzahl
 
