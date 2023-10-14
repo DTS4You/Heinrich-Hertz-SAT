@@ -1,7 +1,7 @@
 ######################################################
 ### Main-Program                                   ###
 ### Projekt: Heinrich-Hertz-SAT                    ###
-### Version: 1.00                                  ###
+### Version: 1.01                                  ###
 ######################################################
 from machine import Pin, Timer                              # RaspberryPi Pico2040 -> Hardware-Library
 from module_init import Global_Module as MyModule
