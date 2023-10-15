@@ -88,6 +88,7 @@ def main():
                         #print("obj")
                         #print(MyDecode.get_value_1())
                         #print(segment_map[MyDecode.get_value_1()])
+                        MyWS2812.do_all_off()
                         if MyDecode.get_value_1() == 1:
                             for i in pix_array_01:
                                 MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
