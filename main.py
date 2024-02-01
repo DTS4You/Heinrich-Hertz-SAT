@@ -1,14 +1,14 @@
 ######################################################
 ### Main-Program                                   ###
 ### Projekt: Heinrich-Hertz-SAT                    ###
-### Version: 1.01                                  ###
+### Version: 1.02                                  ###
 ######################################################
 from machine import Pin, Timer                              # RaspberryPi Pico2040 -> Hardware-Library
 from module_init import Global_Module as MyModule
 import time
 
-# 01 -> Next OBP              -> 1/11                         -> 10
-# 02 -> Fraunhofer OBP        -> 1/12                         -> 11
+# 01 -> Next OBP              -> 1/12                         -> 11
+# 02 -> Fraunhofer OBP        -> 1/11                         -> 10
 # 03 -> GeReLEO Smart         -> 1/07                         -> 06
 # 04 -> Flex INET             -> 1/04 , 1/05                  -> 03 , 04
 # 05 -> Flex OMUX             -> 1/03 , 1/06                  -> 02 , 05
@@ -24,8 +24,8 @@ import time
 # 15 -> Tank (MMH/MON)        -> 2/01 , 2/02 , 3/01 , 3/02    -> 12 , 13 , 20 , 21
 # 16 -> Sternsensor           -> 5/01 , 6/01                  -> 31 , 32
 
-pix_array_01 = [10]
-pix_array_02 = [11]
+pix_array_01 = [11]
+pix_array_02 = [10]
 pix_array_03 = [ 6]
 pix_array_04 = [ 3, 4]
 pix_array_05 = [ 2 ,5]
