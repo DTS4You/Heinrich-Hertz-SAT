@@ -3,7 +3,7 @@
 ### Projekt: Heinrich-Hertz-SAT                    ###
 ### Version: 1.03        30.04.2024                ###
 ######################################################
-from machine import Pin, Timer                              # RaspberryPi Pico2040 -> Hardware-Library
+from machine import Pin, Timer # type: ignore
 from module_init import Global_Module as MyModule
 import time
 
