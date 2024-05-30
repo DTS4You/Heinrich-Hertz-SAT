@@ -1,11 +1,11 @@
 ######################################################
 ### Main-Program                                   ###
 ### Projekt: Heinrich-Hertz-SAT                    ###
-### Version: 1.03        30.04.2024                ###
+### Version: 1.02                                  ###
 ######################################################
-from machine import Pin, Timer                              # RaspberryPi Pico2040 -> Hardware-Library
+from machine import Pin, Timer      # type: ignore
 from module_init import Global_Module as MyModule
-import time
+import time                         # type: ignore
 
 # 01 -> Next OBP              -> 1/12                         -> 11
 # 02 -> Fraunhofer OBP        -> 1/11                         -> 10
