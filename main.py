@@ -1,7 +1,7 @@
 ######################################################
 ### Main-Program                                   ###
 ### Projekt: Heinrich-Hertz-SAT                    ###
-### Version: 1.03        30.04.2024                ###
+### Version: 1.04        30.05.2024                ###
 ######################################################
 from machine import Pin, Timer # type: ignore
 from module_init import Global_Module as MyModule
