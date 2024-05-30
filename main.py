@@ -1,15 +1,9 @@
 ######################################################
 ### Main-Program                                   ###
 ### Projekt: Heinrich-Hertz-SAT                    ###
-<<<<<<< HEAD
 ### Version: 1.02                                  ###
 ######################################################
 from machine import Pin, Timer      # type: ignore
-=======
-### Version: 1.04        30.05.2024                ###
-######################################################
-from machine import Pin, Timer # type: ignore
->>>>>>> 1d74b1c8af7240a01a4c7714212b1ce5e2bc64c4
 from module_init import Global_Module as MyModule
 import time                         # type: ignore
 
