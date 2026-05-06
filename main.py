@@ -7,6 +7,7 @@ from machine import Pin, Timer      # type: ignore
 from module_init import Global_Module as MyModule
 import time                         # type: ignore
 
+#------------------------------------------------------------------------------
 # 01 -> Next OBP              -> 1/12                         -> 11
 # 02 -> Fraunhofer OBP        -> 1/11                         -> 10
 # 03 -> GeReLEO Smart         -> 1/07                         -> 06
@@ -44,6 +45,7 @@ pix_array_13 = [28]
 pix_array_14 = [14, 22]
 pix_array_15 = [12, 13, 20, 21]
 pix_array_16 = [31, 32]
+#------------------------------------------------------------------------------
 
 obj_offset = 0          # Offset bei Zählung ab 1 = -1
 
