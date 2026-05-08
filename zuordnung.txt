@@ -52,3 +52,11 @@
 5/01    -> 31
 6/01    -> 32
 
+HEMP    -> vorne links -> okay
+HET     -> vorne rechts -> hinzu
+SADM    -> schwarzer Konus mitte -> neu hinzu !!!
+Batterien -> beide LEDs vorne mitte -> blinken nicht -> HTML Code falsch !!! (0,0,0) -> (0,12,3)
+Xenon Tanks -> LEDs über kreuz -> rechts vorne und hinten links
+Helium Tanks -> keine Funktion -> links vorne und hinten rechts
+
+Ausgang 3 und 4 ist frei
