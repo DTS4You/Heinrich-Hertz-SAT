@@ -58,5 +58,6 @@ SADM    -> schwarzer Konus mitte -> neu hinzu !!!
 Batterien -> beide LEDs vorne mitte -> blinken nicht -> HTML Code falsch !!! (0,0,0) -> (0,12,3)
 Xenon Tanks -> LEDs über kreuz -> rechts vorne und hinten links
 Helium Tanks -> keine Funktion -> links vorne und hinten rechts
+10 N Triebwerk -> keine LEDs -> vorne aussen unten link und rechts
 
 Ausgang 3 und 4 ist frei
