@@ -16,6 +16,9 @@
 14 -> Tank (Xe)             -> 2/03 , 3/03                  -> 14 , 22
 15 -> Tank (MMH/MON)        -> 2/01 , 2/02 , 3/01 , 3/02    -> 12 , 13 , 20 , 21
 16 -> Sternsensor           -> 5/01 , 6/01                  -> 31 , 32
+17 -> Tank (He)             ->
+18 -> SADM                  -> 7/01                         -> 34
+19 -> 10 N Triebwerk        -> 8/01 , 8/02                  -> 35
 
 
 1/01    -> 00
@@ -51,13 +54,3 @@
 4/03    -> 30
 5/01    -> 31
 6/01    -> 32
-
-HEMP    -> vorne links -> okay
-HET     -> vorne rechts -> hinzu
-SADM    -> schwarzer Konus mitte -> neu hinzu !!!
-Batterien -> beide LEDs vorne mitte -> blinken nicht -> HTML Code falsch !!! (0,0,0) -> (0,12,3)
-Xenon Tanks -> LEDs über kreuz -> rechts vorne und hinten links
-Helium Tanks -> keine Funktion -> links vorne und hinten rechts
-10 N Triebwerk -> keine LEDs -> vorne aussen unten link und rechts
-
-Ausgang 3 und 4 ist frei
