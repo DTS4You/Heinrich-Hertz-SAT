@@ -4,7 +4,7 @@
 ### Version: 1.04          06.05.2026              ###
 ######################################################
 from machine import Pin, Timer      # type: ignore
-from module_init import Global_Module as MyModule
+from libs.module_init import Global_Module as MyModule
 import time                         # type: ignore
 
 #------------------------------------------------------------------------------
@@ -175,7 +175,7 @@ if __name__ == "__main__":
 
     if MyModule.inc_ws2812:
         #print("WS2812 -> Load-Module")
-        import module_ws2812_v2 as MyWS2812         # Modul WS2812  -> WS2812-Ansteuerung
+        import libs.module_ws2812_v2 as MyWS2812         # Modul WS2812  -> WS2812-Ansteuerung
         #print("WS2812 -> Setup")
         MyWS2812.setup_ws2812()
         ### Test ###
@@ -188,7 +188,7 @@ if __name__ == "__main__":
 
     if MyModule.inc_decoder:
         #print("Decode -> Load-Module")
-        import module_decode as MyDecode
+        import libs.module_decode as MyDecode
         #print("Decode -> Setup")
         MyDecode.decode_setup()
         ### Test ###
@@ -197,7 +197,7 @@ if __name__ == "__main__":
 
     if MyModule.inc_serial:
         #print("Serial-COM -> Load-Module")
-        import module_serial as MySerial
+        import libs.module_serial as MySerial
         #print("Serial-Con -> Setup")
         MySerial.sercon_setup()
         ### Test ###
