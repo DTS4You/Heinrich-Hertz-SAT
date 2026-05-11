@@ -1,6 +1,6 @@
 # Module WS2812 V1.01
 import time
-import libs.module_neopixel
+import module_neopixel
 from libs.module_init import Global_WS2812 as MyGlobal
 
 
