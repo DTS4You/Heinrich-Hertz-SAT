@@ -160,15 +160,16 @@ class Global_WS2812:
     seg_33_count        = 1             # 33. Ledsegment -> Anzahl
     # -------------------------------------------------------------------------
     # 7. Stripe -> 6
-    #seg_34_strip        = 6             # 34. Ledsegment -> Stripe
-    #seg_34_start        = 0             # 34. Ledsegment -> Start
-    #seg_34_count        = 1             # 34. Ledsegment -> Anzahl
+    seg_34_strip        = 6             # 34. Ledsegment -> Stripe
+    seg_34_start        = 0             # 34. Ledsegment -> Start
+    seg_34_count        = 1             # 34. Ledsegment -> Anzahl
     # -------------------------------------------------------------------------
     # 8. Stripe -> 7
-    #seg_35_strip        = 7             # 35. Ledsegment -> Stripe
-    #seg_35_start        = 0             # 35. Ledsegment -> Start
-    #seg_35_count        = 1             # 35. Ledsegment -> Anzahl
-    
+    seg_35_strip        = 7             # 35. Ledsegment -> Stripe
+    seg_35_start        = 0             # 35. Ledsegment -> Start
+    seg_35_count        = 1             # 35. Ledsegment -> Anzahl
+    # -------------------------------------------------------------------------
+    # XYZ
     #seg_36_strip        = 2             # 36. Ledsegment -> Stripe
     #seg_36_start        = 11            # 36. Ledsegment -> Start
     #seg_36_count        = 1             # 36. Ledsegment -> Anzahl
