@@ -10,7 +10,7 @@ Version 1.05    -> Ab 11.05.2026
 # 1. HEMP    -> vorne links -> okay
     Keine Änderung -> i.O.
 # 2. HET     -> vorne rechts -> hinzu
-    Änderung in HTML
+    Änderung in HTML --> erledigt
 # 3. SADM    -> schwarzer Konus mitte -> neu hinzu !!!
     Neue LED
     Änderung HTML --> erledigt
