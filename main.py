@@ -149,8 +149,16 @@ def main():
                         if MyDecode.get_value_1() == 16:
                             for i in pix_array_16:
                                 MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
-
-                        #MyWS2812.set_led_obj(MyDecode.get_value_1(), MyDecode.get_value_2())
+                        if MyDecode.get_value_1() == 17:
+                            for i in pix_array_17:
+                                MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
+                        if MyDecode.get_value_1() == 18:
+                            for i in pix_array_18:
+                                MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
+                        if MyDecode.get_value_1() == 19:
+                            for i in pix_array_19:
+                                MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
+                        #=======================================================================
 
                 if MyDecode.get_cmd_1() == "test":
                     #print("Test")
