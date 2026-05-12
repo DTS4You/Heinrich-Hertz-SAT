@@ -31,6 +31,7 @@ import time                         # type: ignore
 # 17 -> Tank (He)             -> ???
 # 18 -> SADM                  -> 7/01                         -> 34
 # 19 -> 10 N Triebwerke       -> 8/01 , 8/02                  -> 35
+# 20 -> HET                   -> ???
 #------------------------------------------------------------------------------
 pix_array_01 = [11]
 pix_array_02 = [10]
@@ -48,9 +49,10 @@ pix_array_13 = [28]
 pix_array_14 = [14, 22]
 pix_array_15 = [12, 13, 20, 21]
 pix_array_16 = [31, 32]
-pix_array_17 = [11]
+pix_array_17 = [11]     # ???
 pix_array_18 = [34]
 pix_array_19 = [35]
+pix_array_20 = [11]      # ???
 #------------------------------------------------------------------------------
 
 obj_offset = 0          # Offset bei Zählung ab 1 = -1
@@ -157,6 +159,9 @@ def main():
                                 MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
                         if MyDecode.get_value_1() == 19:
                             for i in pix_array_19:
+                                MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
+                        if MyDecode.get_value_1() == 20:
+                            for i in pix_array_20:
                                 MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
                         #=======================================================================
 

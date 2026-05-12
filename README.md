@@ -13,14 +13,14 @@ Version 1.05    -> Ab 11.05.2026
     Änderung in HTML
 # 3. SADM    -> schwarzer Konus mitte -> neu hinzu !!!
     Neue LED
-    Änderung HTML
+    Änderung HTML --> erledigt
     Anpassung MicroPython
 # 4. Batterien -> beide LEDs vorne mitte -> blinken nicht
-    HTML Code falsch !!! (0,0,0) -> (0,12,3)
+    HTML Code falsch !!! (0,0,0) -> (0,12,3) --> erledigt
 # 5. Xenon Tanks -> LEDs über kreuz -> rechts vorne und hinten links
     Anpassung MicroPython
 # 6. Helium Tanks -> keine Funktion -> links vorne und hinten rechts
-    Änderung HTML
+    Änderung HTML   --> erledigt
     Anpassung MicroPython
 # 7. 10 N Triebwerk -> keine LEDs -> vorne aussen unten link und rechts
     Neue LEDs -> 2 Stück jeweils 1m mit Querverbindung
