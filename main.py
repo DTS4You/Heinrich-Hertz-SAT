@@ -23,7 +23,7 @@ import time                         # type: ignore
 # 12 -> Batterie              -> 7.02 , 7.03                  -> 33 , 34
 # 13 -> Apogäums-Triebwerk    -> 7.01                         -> 32
 # 14 -> Tank (Xe)             -> 5.04 , 6.03                  -> 19 , 26
-# 15 -> Tank (MMH/MON)        -> 5.01 , 5/02 , 6.01 , 6.02    -> 16 , 17 , 24 , 25
+# 15 -> Tank (MMH/MON)        -> 5.01 , 5.02 , 6.01 , 6.02    -> 16 , 17 , 24 , 25
 # 16 -> Sternsensor           -> 1.01 , 2.01                  ->  1 ,  2
 # 17 -> Tank (He)             -> 5.03 , 6.04                  -> 18 , 27
 # 18 -> SADM                  -> 3.01                         ->  3
@@ -31,7 +31,7 @@ import time                         # type: ignore
 # 20 -> HET                   -> 6.08                         -> 31
 #------------------------------------------------------------------------------
 pix_array_01 = [15]
-pix_array_02 = [15]
+pix_array_02 = [14]
 pix_array_03 = [10]
 pix_array_04 = [ 6, 8]
 pix_array_05 = [ 5, 9]
@@ -52,7 +52,7 @@ pix_array_19 = [22,30]
 pix_array_20 = [31]
 #------------------------------------------------------------------------------
 
-obj_offset = 0          # Offset bei Zählung ab 1 = -1
+obj_offset = -1          # Offset bei Zählung ab 1 = -1
 
 def blink_func():
     MyWS2812.do_blink()
@@ -68,10 +68,12 @@ def main():
     blink_couter = 0
     
     MyWS2812.do_all_def()	# Alle Leds auf Default-Wert
-       
+    print("Setup -> do all def")  
+
     while MySerial.sercon_read_flag():
 
         if blink_couter > 50:
+            #print("Blink Counter")
             blink_couter = 0
             blink_func()
         
@@ -186,6 +188,8 @@ def main():
 
 
 if __name__ == "__main__":
+
+    print("Start Run...")
 
     if MyModule.inc_ws2812:
         #print("WS2812 -> Load-Module")
